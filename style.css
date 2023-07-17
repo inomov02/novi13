@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.contayner{
+    width: 700px;
+    height: 500px;
+    
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.contayner img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transition: .5s;
+
+}
+.contayner img:nth-child(1) {
+    filter: blur(4px);
+}
+.contayner img:nth-child(1):hover {
+    filter: blur(0);
+}
+.contayner img:nth-child(2) {
+    filter: brightness(150%);
+}
+.contayner img:nth-child(2):hover {
+    filter: brightness(100%);
+}
+.contayner img:nth-child(3) {
+    filter: contrast(150%)
+}
+
+.contayner img:nth-child(3):hover {
+    filter: contrast(100%)
+}
+
+.contayner img:nth-child(4) {
+    filter: grayscale(100%)
+}
+
+.contayner img:nth-child(4):hover {
+    filter: grayscale(0)
+}
+
+.contayner img:nth-child(5) {
+    filter: hue-rotate(100deg)
+}
+
+.contayner img:nth-child(5):hover {
+    filter: hue-rotate(0)
+}
+
+.contayner img:nth-child(6) {
+    filter: invert(100%)
+}
+
+.contayner img:nth-child(6):hover {
+    filter: invert(0)
+}
+
+.contayner img:nth-child(7) {
+    filter: opacity(0.3)
+}
+
+.contayner img:nth-child(7):hover {
+    filter: opacity(1)
+}
+
+.contayner img:nth-child(8) {
+    filter: saturate(0)
+}
+
+.contayner img:nth-child(8):hover {
+    filter: saturate(100%)
+}
+
+.contayner img:nth-child(9) {
+    filter: sepia(100%)
+}
+
+.contayner img:nth-child(9):hover {
+    filter: sepia(0)
+}
